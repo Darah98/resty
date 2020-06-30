@@ -1,4 +1,4 @@
-# LAB - Class 26
+# LAB - Class 27
 
 ## Topic: Component Based UI
 
@@ -6,7 +6,9 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Darah98/resty/pull/1)
+- [submission PR](https://github.com/Darah98/resty/pull/2)
+- [gh-pages](https://darah98.github.io/resty/)
+- [Netlify](https://wizardly-dubinsky-483375.netlify.app/)
 
 #### Running the app
 
@@ -14,7 +16,7 @@
 
 #### Tests
 
-- Only visual tests were preformed
+- Only visual tests were performed
 - Jest and lint tests we skipped due to not being required for this class
 
 #### UML
