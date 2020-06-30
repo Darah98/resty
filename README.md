@@ -19,4 +19,4 @@
 
 #### UML
 
-![UML](UML.png)
+![UML](UML.PNG)
