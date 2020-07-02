@@ -19,6 +19,7 @@ class Form extends React.Component {
         } else {
             alert('Please insert url and method');
         }
+        this.props.historyHandler(this.state.request);
     }
     changeHandler = (e) => {
         const url = e.target.value;
