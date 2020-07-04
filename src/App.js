@@ -12,17 +12,16 @@ import Footer from './Components/Footer/footer.js'
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0, headers: { "headers": "not much" }, results: {}, request: {}, history:[] };
+    this.state = { count: 0, headers: { "headers": "not much" }, results: {}, request: {}, history: [] };
   }
   updateHandler = (resultData, headersType) => {
     const results = resultData.results;
     const headers = { "Content-Type": `${headersType}` };
     const count = resultData.count;
     this.setState({ count, headers, results });
-    console.log('consoling from app', results);
   }
-  historyHandler = (request) =>{
-    this.setState(request);
+  historyHandler = (history) => {
+    this.setState({ history });
   }
   render() {
     return (
@@ -30,15 +29,21 @@ class App extends React.Component {
         <Header />
         <main id="main">
           <Route exact path="/">
-            <Form handler={this.updateHandler} history={this.historyHandler}/>
+            <div>
+
+            </div>
+            <Form handler={this.updateHandler} history={this.historyHandler} />
             <If condition={this.state.count}>
               <Then>
+                <div id="container">
+                <div className="loader"></div>
+                </div>
                 <Results count={this.state.count} headers={this.state.headers} results={this.state.results} />
               </Then>
             </If>
           </Route>
           <Route exact path="/history">
-            <History reqInfo={this.state.request} />
+            <History localhistory={this.state.history} />
           </Route>
         </main>
         <Footer />

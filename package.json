@@ -21,9 +21,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint '**/*.js'"
   },
-  "homepage": "/",
+  "homepage": "https://darah98.github.io/resty/",
   "eslintConfig": {
     "extends": "react-app"
   },

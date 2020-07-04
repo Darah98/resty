@@ -1,3 +1,13 @@
+form{
+    display: flex;
+    div{
+        width: 50%;
+        #ex{
+            color: rgba(82, 82, 82, 0.808);
+            font-size: x-small;
+        }
+    }
+}
 #formResult{
     background-color: #efefef;
     margin-left: 10%;
@@ -11,4 +21,15 @@
         top: 50px;
         margin-right: 35px;
     }
+}
+#lowersection{
+    display: flex;
+    div{
+        width: 50%;
+    }
+}
+#historySection{
+    border: rgba(17, 22, 22, 0.842) 5px solid;
+    border-radius: 12px;
+    margin: 10px 10px;
 }
