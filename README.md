@@ -1,12 +1,12 @@
-# LAB - Class 27
+# LAB - Class 28
 
-## Topic: Component Based UI
+## Topic: Props & State
 
 ### Author: Darah
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Darah98/resty/pull/2)
+- [submission PR](https://github.com/Darah98/resty/pull/5)
 - [gh-pages](https://darah98.github.io/resty/)
 - [Netlify](https://wizardly-dubinsky-483375.netlify.app/)
 
