@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d build",
     "lint": "eslint '**/*.js'"
   },
-  "homepage": "https://darah98.github.io/resty/",
+  "homepage": "/",
   "eslintConfig": {
     "extends": "react-app"
   },
