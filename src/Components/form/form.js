@@ -1,6 +1,6 @@
 import React from 'react';
 import './form.scss';
-import Results from '../Results/results.js'
+// import Results from '../Results/results.js'
 
 class Form extends React.Component {
     constructor(props) {
