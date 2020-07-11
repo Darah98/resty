@@ -1,12 +1,12 @@
-# LAB - Class 28
+# LAB - Class 29
 
-## Topic: Props & State
+## Topic: Routing & Component Composition
 
 ### Author: Darah
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Darah98/resty/pull/5)
+- [submission PR](https://github.com/Darah98/resty/pull/6)
 - [gh-pages](https://darah98.github.io/resty/)
 - [Netlify](https://wizardly-dubinsky-483375.netlify.app/)
 

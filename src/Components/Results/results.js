@@ -6,8 +6,6 @@ class Results extends React.Component {
         super(props);
         this.state = { nothing: 'nothing to see here' };
     }
-    // prettyHandler = (count, results) => {
-    // }
     render() {
         return (
             <>
